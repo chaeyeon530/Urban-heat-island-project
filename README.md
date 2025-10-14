@@ -1,23 +1,33 @@
 # Urban-heat-island-project
 # 🌆 Urban Heat Island Analysis: Seoul vs Melbourne
 
+📍 *This project was conducted as part of the La Trobe AI & Data Science Exchange Program (2025).*  
+📍 *본 프로젝트는 2025년 라트로브 AI & 데이터사이언스 교환 프로그램의 일환으로 수행되었습니다.*
+
 > **Team Project | La Trobe Exchange 2025**  
-> **Team Members:** 권하림 · 이채연(Hani) · 임연지 · 김현지  
-> **Supervisor:** David (La Trobe University)
+> **Team Members:** 권하림 · 이채연 · 김현지  
+> **Supervisor:** La Trobe University
 
 ---
 
-## 🧭 Project Overview
+## 🧭 Project Overview | 프로젝트 개요  
 
-This project investigates **urban heat island (UHI)** effects by comparing **Seoul (South Korea)** and **Melbourne (Australia)** using geospatial and environmental datasets.
+This project investigates **Urban Heat Island (UHI)** effects by comparing **Seoul** and **Melbourne** using geospatial and environmental datasets.  
+We analyzed how **building density**, **green area**, **road length**, and **air pollution** correlate with **average temperature changes (2016 → 2023)**.
 
-We analyzed how factors such as **building density**, **green space**, **road length**, and **air pollution** correlate with **average temperature changes (2016 → 2023)**.
+이 프로젝트는 **서울과 멜버른의 도시 열섬(UHI) 현상**을 비교하기 위해  
+지리공간(Spatial) 및 환경 데이터를 활용하여 진행되었습니다.  
+**건물 밀도**, **녹지 면적**, **도로 길이**, **대기 오염도**가  
+**평균기온 변화(2016년 → 2023년)** 에 어떤 영향을 미치는지를 분석했습니다.
 
-**Main Tools:**  
+**Main Tools | 주요 도구:**  
 PostgreSQL + PostGIS · QGIS · R (`ggplot2`, `gstat`, `raster`)  
-**Data Source:**  
-KMA (Korea Meteorological Administration), OpenStreetMap, Statistics Korea, Australian Bureau of Meteorology
 
+**Data Sources | 데이터 출처:**  
+- KMA (기상청, AWS 데이터)  
+- OpenStreetMap (건물·도로·녹지 등 공간데이터)  
+- 통계청 (인구 데이터)  
+- Australian Bureau of Meteorology (멜버른 비교 데이터)
 ---
 
 ## 📂 Data Pipeline
@@ -31,10 +41,6 @@ KMA (Korea Meteorological Administration), OpenStreetMap, Statistics Korea, Aust
 	5.	R에서 상관분석 및 시각화 수행
 	6.	서울–멜버른 간 열섬 양상 비교
 ```
-# 🌡 Urban Heat Island Analysis: Seoul vs Melbourne
-
-📍 *This project was conducted as part of the La Trobe AI & Data Science Exchange Program (2025).*  
-📍 *본 프로젝트는 2025년 라트로브 AI & 데이터사이언스 교환 프로그램의 일환으로 수행되었습니다.*
 
 ---
 
@@ -125,17 +131,6 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 
 ---
 
-## 🧑‍🤝‍🧑 Team Roles | 팀 역할
-
-| Member | Role | Contribution |
-|:--|:--|:--|
-| 임연지 | R Analyst | 상관분석 및 시각화(`ggplot2`) |
-| 권하림 | GIS Specialist | SQL 쿼리, 공간데이터 처리 |
-| **이채연 (Hani)** | Data Engineer | 데이터 파이프라인 설계, 발표자료 구성 |
-| 김현지 | Research Lead | 참고 논문 조사 및 멜버른 비교 분석 |
-
----
-
 ## 🧠 Key Takeaways | 핵심 인사이트
 - IDW 보간법이 도시 기온 시각화에 적합함을 검증  
 - 녹지면적과 기온 간 음의 상관관계 명확히 확인  
@@ -146,6 +141,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 ## 🪄 Next Steps | 후속 연구 제안
 - 2000–2025년 장기 시계열 데이터 확장  
 - 머신러닝 기반 열섬 예측 모델 구축 (Python + TensorFlow)
+- 맬버른 온도 데이터로 멜버른 도시 열섬 현상 파악
 
 ---
 
