@@ -1,4 +1,3 @@
-# Urban-heat-island-project
 # 🌆 Urban Heat Island Analysis: Seoul vs Melbourne
 
 📍 *This project was conducted as part of the La Trobe AI & Data Science Exchange Program (2025).*  
