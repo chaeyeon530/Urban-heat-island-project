@@ -30,3 +30,11 @@ flowchart TD
     D --> E[Zonal Aggregation by District]
     E --> F[Correlation & Visualization in R]
     F --> G[Comparison: Seoul vs Melbourne]
+요약:
+	1.	기상청 & OSM 데이터 수집
+	2.	PostGIS로 공간결합 및 테이블 구축
+	3.	IDW 보간법으로 기온 분포 지도 생성
+	4.	행정동 단위로 환경요소 집계
+	5.	R에서 상관분석 및 시각화 수행
+	6.	서울–멜버른 간 열섬 양상 비교
+```
