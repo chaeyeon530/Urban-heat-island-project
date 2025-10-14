@@ -2,7 +2,7 @@
 # 🌆 Urban Heat Island Analysis: Seoul vs Melbourne
 
 📍 *This project was conducted as part of the La Trobe AI & Data Science Exchange Program (2025).*  
-📍 *본 프로젝트는 2025년 라트로브 대학 연수 프로그램의 일환으로 수행되었습니다.*
+📍 *본 프로젝트는 2025년 라트로브 대학 해외 연수 프로그램의 일환으로 수행되었습니다.*
 
 > **Team Project | La Trobe Exchange 2025**  
 > **Team Members:** 권하림 · 이채연 · 김현지  
@@ -17,7 +17,7 @@
 **평균기온 변화(2016년 → 2023년)** 에 어떤 영향을 미치는지를 분석했습니다.
 
 **Main Tools | 주요 도구:**  
-PostgreSQL + PostGIS · QGIS · R (`ggplot2`, `gstat`, `raster`)  
+PostgreSQL + PostGIS · QGIS · R
 
 **Data Sources | 데이터 출처:**  
 - KMA (기상청, AWS 데이터)  
@@ -120,7 +120,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 |:--|:--|
 | Database | PostgreSQL + PostGIS |
 | Spatial Processing | QGIS |
-| Statistical Analysis | R (`ggplot2`, `gstat`, `raster`) |
+| Statistical Analysis | R |
 | Visualization | QGIS · ggplot2 · Tableau |
 | Version Control | GitHub |
 | Documentation | Notion |
@@ -137,12 +137,13 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 ## 🪄 Next Steps | 후속 연구 제안
 - 2000–2025년 장기 시계열 데이터 확장  
 - 머신러닝 기반 열섬 예측 모델 구축 (Python + TensorFlow)
-- 맬버른의 도시 열섬 현상을 데이터로 파악
+- 맬버른의 도시 열섬 현상을 데이터로 파악해 결과의 신뢰도 높이기
 
 ---
 
 ## 📎 References | 참고문헌
-- KMA Data Portal (기상청 데이터포털)  
-- OpenStreetMap  
+- 기상청 데이터포털 (기상자료개방 포털, 방재기상관측 자료)
+- OpenStreetMap (건물·도로·녹지 등 공간데이터)
+- 통계청 (인구 데이터)  
 - GIS Developer: IDW 보간법 설명  
 - La Trobe University Data science(GIS) Course Resources
