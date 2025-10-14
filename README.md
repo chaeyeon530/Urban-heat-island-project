@@ -160,5 +160,6 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 
 ## 📌 Poster | 포스터
 <img width="402" height="565" alt="스크린샷 2025-10-14 오후 4 36 41" src="https://github.com/user-attachments/assets/18ad6557-b032-4e78-bde2-925a5cce7ba5" />
+<br>
 [Team3_poster.pdf](https://github.com/user-attachments/files/22899150/Team3_poster.pdf)
 
