@@ -2,18 +2,14 @@
 # 🌆 Urban Heat Island Analysis: Seoul vs Melbourne
 
 📍 *This project was conducted as part of the La Trobe AI & Data Science Exchange Program (2025).*  
-📍 *본 프로젝트는 2025년 라트로브 AI & 데이터사이언스 교환 프로그램의 일환으로 수행되었습니다.*
+📍 *본 프로젝트는 2025년 라트로브 대학 연수 프로그램의 일환으로 수행되었습니다.*
 
 > **Team Project | La Trobe Exchange 2025**  
 > **Team Members:** 권하림 · 이채연 · 김현지  
-> **Supervisor:** La Trobe University
 
 ---
 
 ## 🧭 Project Overview | 프로젝트 개요  
-
-This project investigates **Urban Heat Island (UHI)** effects by comparing **Seoul** and **Melbourne** using geospatial and environmental datasets.  
-We analyzed how **building density**, **green area**, **road length**, and **air pollution** correlate with **average temperature changes (2016 → 2023)**.
 
 이 프로젝트는 **서울과 멜버른의 도시 열섬(UHI) 현상**을 비교하기 위해  
 지리공간(Spatial) 및 환경 데이터를 활용하여 진행되었습니다.  
@@ -141,7 +137,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 ## 🪄 Next Steps | 후속 연구 제안
 - 2000–2025년 장기 시계열 데이터 확장  
 - 머신러닝 기반 열섬 예측 모델 구축 (Python + TensorFlow)
-- 맬버른 온도 데이터로 멜버른 도시 열섬 현상 파악
+- 맬버른의 도시 열섬 현상을 데이터로 파악
 
 ---
 
@@ -149,4 +145,4 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 - KMA Data Portal (기상청 데이터포털)  
 - OpenStreetMap  
 - GIS Developer: IDW 보간법 설명  
-- La Trobe University GIS Course Resources
+- La Trobe University Data science(GIS) Course Resources
