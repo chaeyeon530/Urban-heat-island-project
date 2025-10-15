@@ -106,7 +106,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 
 ---
 
-### 6️⃣ Key Findings
+### 6️⃣ Key Insights
 - IDW 보간법이 도시 기온 시각화에 적합함을 검증  
 - 녹지면적과 기온 간 음의 상관관계 명확히 확인  
 - 서울의 열섬 완화 대책으로 **녹지 확충의 중요성 제시**
@@ -120,8 +120,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 | Database | PostgreSQL + PostGIS |
 | Spatial Processing | QGIS |
 | Statistical Analysis | R |
-| Visualization | QGIS · ggplot2 · Tableau |
-| Version Control | GitHub |
+| Visualization | QGIS · ggplot2 |
 | Documentation | Notion |
 
 ---
@@ -132,7 +131,7 @@ PostGIS에서 불러온 데이터를 R에서 상관분석으로 시각화
 - 서울의 열섬 완화 대책으로 **녹지 확충의 중요성 제시**
 
 ---
-## 🧐 limitation | 한계점
+## 🧐 limitations | 한계점
 - 데이터 수집의 어려움 : 공공데이터의 한계
   - 서울시의 행정'동' 단위의 온도 데이터가 없어 위도경도 데이터로 동을 구분했음
   - 서울시의 건물높이 데이터가 없어 건물 높이와 온도의 상관관계를 확인하지 못 함 -> 건물수로 대체
