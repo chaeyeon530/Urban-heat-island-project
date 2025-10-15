@@ -11,7 +11,7 @@
 ## 🧭 Project Overview | 프로젝트 개요  
 
 이 프로젝트는 **서울과 멜버른의 도시 열섬(UHI) 현상**을 비교하기 위해  
-지리공간(Spatial) 및 환경 데이터를 활용하여 진행되었습니다.  
+공간(Spatial) 데이터 및 환경 데이터를 활용하여 진행되었습니다.  
 **건물 밀도**, **녹지 면적**, **도로 길이**, **대기 오염도**가  
 **평균기온 변화(2016년 ~ 2023년)** 에 어떤 영향을 미치는지를 분석했습니다.
 
@@ -19,10 +19,10 @@
 PostgreSQL + PostGIS · QGIS · R
 
 **Data Sources | 데이터 출처:**  
-- KMA (기상청, AWS 데이터)  
-- OpenStreetMap (건물·도로·녹지 등 공간데이터)  
+- 기상청 기상자료개방포털 (AWS (자동기상관측장비) 데이터)  
+- OpenStreetMap (건물·도로·녹지 등 지리 공간 데이터)  
 - 통계청 (인구 데이터)  
-- Australian Bureau of Meteorology (멜버른 비교 데이터)
+- Australian Bureau of Meteorology (멜버른 참고 데이터)
 ---
 
 ## 📂 Data Pipeline
